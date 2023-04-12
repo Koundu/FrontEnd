@@ -4,182 +4,279 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acciojob Front End Module Test </title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <style>
-        .banner-image{
-            background-image: url(img/colorful-2174045.png);
-            background-size: cover;
-        }
-        .card-body{
-            display: grid;
-            background-color: yellowgreen;
-        }
-    </style>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <link rel="stylesheet" href="./styles.css">
+  
+
+    <title>YouTube UI Clone</title>
 </head>
 <body>
-<!--Navigation Bar-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-image: linear-gradient(to right, #de6262, #ffb88c);">
-    <div class="container">
-        <a href="#" class="navbar-brand">Welcome</a>
-        <button
-        type="button"
-        class="navbar-toggler"
-        data-bs-target="#navbarNav"
-        data-bs-toggle="collapse"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle Navbar"
-        onclick="navbar-nav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mx-auto"></div>
-            <ul class="navbar-nav">                
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Documentation</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Scribble Pad</a>
-                </li>
-            </ul>
+    <div class="menuBar" style="font-family: 'Estonia', cursive;">
+        <div class="logo">
+            <i class="material-icons">menu</i>
+            <img src="https://lh3.googleusercontent.com/3g4wDOiAnxbyAflNz4MhGxrkWw4vJ_kEtHTKQyqTx3o9hMBLmTIJha9ZmY87yu9mc8uM-u2OYCz6gPLx4V1o-fuV0ZHGFGenWGKV8tnPR2OvOMqIe2c=v0-s1050" alt="">
         </div>
+        <div class="search">
+            <form action="">
+            <input type="text" name="" id="">   
+            <button><i class="material-icons">search</i></button>
+        </form>
+        </div>
+        <div class="icons">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">account_circle</i>
+            <i class="material-icons">build</i>
+        </div>
+        
     </div>
-</nav>
-<div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-    <div class="content text-center">
-        <h1 class="text">Front End Contest </h1>
-</div>
-</div>
-<!--Main Content Area-->
+    <div class="mainBody">
+        <div class="categories">
+            <div class="categoriesSection">
+                <span class="category" >
+                    <i class="material-icons active">home</i>
+                    <span>Home</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">trending_up</i>
+                    <span>Trending</span>
+                </span>
+                           <span class="category">
+                            <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </span>
+            </div>
+            <hr>
+            <div class="categoriesSection">
+                <span class="category">
+                    <i class="material-icons">video_library</i>
+                    <span>Library</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </span>
+                    <span class="category">
+                    <i class="material-icons">personal_video</i>
+                    <span>Your Videos</span>
+                    </span>
+            </span>
+            <span class="category">
+            <i class="material-icons">watch_later</i>
+            <span>Watch Later</span>
+            </span>
+            </span>
+            <span class="category">
+            <i class="material-icons">thumb_up</i>
+            <span>Liked Videos</span>
+            </span>
+            </div>
+            <hr>
+            <div class="categoriesSection">
+                <h4>SUBSCRIPTIONS</h4>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Koundinya</span>
+                </span>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Lenovo</span>
+                </span>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Account I</span>
+                </span>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Account II</span>
+                </span>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Account III</span>
+                </span>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Account IV</span>
+                </span>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Account V</span>
+                </span>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Account VI</span>
+                </span>
+                <span class="category">
+                <i class="material-icons">account_circle</i>
+                <span>Account VII</span>
+                </span>
 
-<div class="card-columns">
-<div class="card" style="width: 25rem;" >
-    <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 25rem;">
-    <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 25rem;">
-    <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 25rem;">
-    <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 25rem;">
-    <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 25rem;">
-    <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 25rem;">
-    <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 25rem;">
-    <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-    <div class="card" style="width: 25rem;">
-        <img class="card-img-top" src="img/colorful-2174045.png" alt="Card image cap">
-    <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-    </div>
-</div>
-<div class="accordian">
-<div class="accordion" id="accordionExample" style="width: 100%;">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Accordion Item #1
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Accordion Item #2
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+  
+        <div class="videos">
+            <h1>Recommended</h1>
+            <div class="videosGrid">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Author</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1566560082156-75df931d58b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1637712076522-e667dc7f1bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>YouTube Clone Video</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 Views</span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
         </div>
-      </div>
+
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Accordion Item #3
-        </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<script src="js/acc1.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
